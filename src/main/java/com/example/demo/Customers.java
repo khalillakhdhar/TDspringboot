@@ -1,5 +1,8 @@
 package com.example.demo;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Customers {
 private int custid;
 private String custname;
@@ -24,7 +27,10 @@ public void setCoursename(String coursename) {
 	this.coursename = coursename;
 }
 
-
+public void display()
+{
+System.out.println("Object Returned Successfully");
+}
 
 
 }
